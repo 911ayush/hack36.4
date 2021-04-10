@@ -14,7 +14,7 @@ using best authentication methods possible .
 
 # Technology Stack
 
-  # CoackroachDB
+  CoackroachDB
   Angular 
   JavaScript
   Php
