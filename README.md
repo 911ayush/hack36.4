@@ -1,5 +1,5 @@
 # hack36.4
-something that will work.
+
 
 
 # Introduction:
@@ -14,17 +14,17 @@ using best authentication methods possible .
 
 # Technology Stack
 
-  CoackroachDB
-  Angular 
-  JavaScript
-  Php
+  1. CoackroachDB
+  2. Angular 
+  3. JavaScript
+  4. Php
   
 # Contributers 
   
-  Ayush Yadav
-  Mayank 
-  Sanchit Garg
-  Abhishek Kanaujiya
+  1. Ayush Yadav
+  2. Mayank 
+  3. Sanchit Garg
+  4. Abhishek Kanaujiya
   
 # Made At : 
   
