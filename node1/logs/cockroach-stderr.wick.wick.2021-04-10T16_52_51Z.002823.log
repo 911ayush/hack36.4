@@ -1,0 +1,6 @@
+I210410 16:52:51.911607 1 util/log/sync_buffer.go:195  [config] file created at: 2021/04/10 16:52:51
+I210410 16:52:51.911706 1 util/log/sync_buffer.go:195  [config] running on machine: wick
+I210410 16:52:51.911727 1 util/log/sync_buffer.go:195  [config] binary: CockroachDB CCL v20.2.7 (x86_64-unknown-linux-gnu, built 2021/03/29 17:52:00, go1.13.14)
+I210410 16:52:51.911743 1 util/log/sync_buffer.go:195  [config] arguments: [cockroach start --certs-dir=certs --store=node1 --listen-addr=localhost:26257 --http-addr=localhost:8080 --join=localhost:26257,localhost:26258,localhost:26259]
+I210410 16:52:51.911775 1 util/log/sync_buffer.go:195  [config] line format: [IWEF]yymmdd hh:mm:ss.uuuuuu goid file:line msg utf8=✓
+I210410 16:52:51.719715 1 util/log/flags.go:116  stderr capture started
