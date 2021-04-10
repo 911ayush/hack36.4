@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hack36"
+    }
+  },
+  "defaultProject": "hack36",
+  "cli": {
+    "analytics": "9abf50df-afb5-4502-943a-8bb8b99f016b"
+  }
 }

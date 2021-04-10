@@ -1,0 +1,14 @@
+<div class="veri-t">
+    <div (click)="verifythis()" *ngIf="vas">
+        <input class="vbutt" value="Verify With OTP"  disabled>
+    </div>
+    
+    <div *ngIf="ve">
+        <br>
+        <p>We have send you OTP on your registration number</p>
+        <input class="verinp" [(ngModel)]="otp" placeholder="OTP">
+        <br>
+        <br>
+        <button (click)="verifyotp()">VERIFY</button>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+
+.top-head{
+    padding: 10px;
+    background-color: rgb(224, 183, 68);
+    display: inline-block;
+    width: 100%;
+}
+.tog{
+    font-size: 30px;
+    float: left;
+    padding: 14px;
+}

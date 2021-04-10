@@ -1,0 +1,19 @@
+<div *ngIf="st;else dis">
+    <label for="state">State:</label>
+    <select id="state" name="state" class="state si" (change)="statech($event)" >
+        <option class="opt" *ngFor="let sta of states">{{sta}}</option>
+    </select>
+    <br>
+    {{statec}}
+    <button (click)="donestate()">Done</button>
+</div>
+<ng-template #dis>
+
+    <label for="district">District:</label>
+    <select id="district" name="district" class="district si" (change)="districth($event)">
+        <option *ngFor="let dist of district">{{dist}}</option>
+    </select>
+    <br>
+    {{districtch}}
+    <button (click)="donestate()">Back</button>
+</ng-template>

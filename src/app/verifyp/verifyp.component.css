@@ -1,0 +1,23 @@
+.veri-t{
+    text-align: center;
+}
+.vbutt{
+    padding: 10px;
+    padding-left: auto;
+    width:230px;
+    background-color:rgb(99, 202, 202);
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(235, 236, 146);
+}
+.verinp{
+    padding: 10px;
+    padding-left: 0px;
+    width:100px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 30px;
+    text-align: center;
+}

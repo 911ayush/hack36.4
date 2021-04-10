@@ -1,0 +1,63 @@
+<div class="vote-di">
+    <div class="form">
+        <app-state></app-state>
+        
+        <br>
+
+        <label for="caname">C Assembly Name:</label>
+        <input id="caname" name="caname" class="caname si" placeholder="Constituency Assembly Name">
+    
+        <br>
+
+        <label for="name">Name:</label>
+        <input id = "name"     
+            name = "name"  
+            class="name si" placeholder="candidate name"> 
+        <br>
+
+        <label for="gender">Gender:</label>
+        <input id = "gender"     
+            name = "gender"  
+            class="gender si" placeholder="Gender"> 
+        <br>
+        
+        <label for="relative">Relative Name:</label>
+        <input id = "relative" 
+            name = "relative" 
+            class="name si"
+            placeholder="father/husband name">
+        <br>
+        
+        <label for="age">Age:</label>
+        <input id = "age" 
+            name = "age" 
+            class="name si"
+            placeholder="candidate Age">
+        <br>
+
+        <label for="mobileno">Mobile no:</label>
+        <input id = "mobileno" 
+            name = "mobileno" 
+            class="name si"
+            placeholder="Registered Mobile no">
+        <br>
+
+        <label for="voterid">Voter ID:</label>
+        <input id = "voterid"  
+            name = "voterid" 
+            class="name si"
+            placeholder="Voter ID no">
+        <br>
+        <div class="stat" id="stat">
+            {{showstat}}
+        </div>
+        
+        <button (click)="dothisgreen()">voo</button>
+        
+
+    </div>
+</div>
+<div *ngIf="verified">
+    <app-verifyp></app-verifyp>
+    {{"do verify here"}}
+</div>
